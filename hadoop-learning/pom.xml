@@ -11,16 +11,10 @@
 
     <artifactId>hadoop-learning</artifactId>
 
-
     <properties>
         <hadoop.version>2.9.1</hadoop.version>
-        <java.version>1.8</java.version>
-        <junit.version>4.12</junit.version>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <maven.compiler.source>${java.version}</maven.compiler.source>
-        <maven.compiler.target>${java.version}</maven.compiler.target>
     </properties>
+
     <dependencies>
         <!-- hadoop -->
         <dependency>
