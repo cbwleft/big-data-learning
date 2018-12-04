@@ -21,6 +21,7 @@
     <modules>
         <module>hadoop-learning</module>
         <module>hbase-learning</module>
+        <module>spark-learning</module>
     </modules>
 
 

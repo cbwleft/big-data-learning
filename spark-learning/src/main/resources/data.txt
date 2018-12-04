@@ -1,0 +1,8 @@
+map
+filter
+flatMap
+mapPartitions
+mapPartitionsWithIndex
+sample
+distinct
+map
