@@ -18,13 +18,13 @@ import static org.apache.spark.sql.functions.col;
  **/
 public class SQLTest {
 
-    static SparkSession spark;
+    private static SparkSession spark;
 
     @BeforeClass
     public static void beforeClass() {
         spark = SparkSession
                 .builder()
-                .appName("Java Spark SQL example")
+                .appName("Java Spark SQL test")
                 .master("local[*]")
                 //.config("spark.some.config.option", "some-value")
                 .getOrCreate();
