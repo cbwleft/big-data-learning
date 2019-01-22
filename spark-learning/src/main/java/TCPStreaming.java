@@ -20,7 +20,7 @@ public class TCPStreaming {
         SparkConf conf = new SparkConf()
                 .setAppName("Spark streaming test")
                 .setMaster("local[*]");
-        JavaStreamingContext jsc = new JavaStreamingContext(conf, new Duration(1000));
+        JavaStreamingContext jsc = new JavaStreamingContext(conf, new Duration(10000));
 
         //nc -lk 9999启动TCP
         JavaReceiverInputDStream<String> lines = jsc.socketTextStream("localhost", 9999);
