@@ -22,7 +22,7 @@
         <module>hadoop-learning</module>
         <module>hbase-learning</module>
         <module>spark-learning</module>
-        <module>bin-log-streaming</module>
+        <module>binlog-streaming</module>
     </modules>
 
 
